@@ -1,0 +1,82 @@
+{
+  "user": {
+    "uid": "demo_video_clipper",
+    "displayName": "Annotated Demo",
+    "email": "demo@annotated.ai",
+    "photoURL": ""
+  },
+  "clips": [
+    {
+      "slug": "ai-video-marketing-magnific-google-cloud",
+      "file": "../../web/asset/clip1.mp4",
+      "type": "video",
+      "sourceUrl": "https://www.youtube.com/results?search_query=AI+Video+Marketing+w%2F+Magnific+CEO+Joaqu%C3%ADn+Cuenca+Abela+AI+Basics",
+      "sourceTitle": "AI Video Marketing w/ Magnific CEO Joaquín Cuenca Abela | AI Basics",
+      "sourceAuthor": "This Week in Startups",
+      "mediaStart": "1:00",
+      "mediaEnd": "1:30",
+      "sourceDuration": 1355,
+      "clipDuration": 30,
+      "aiTitle": "A fast setup for why AI video tools are changing every month",
+      "commentaryText": "This clip works as a clean opener because it frames AI video as a fast-moving founder problem, then immediately grounds the conversation in practical startup support.",
+      "transcriptionText": "00:00:00,019 --> 00:00:29,620 [Speaker 0]\nSomething out of the IRS to tweak. My Lord, when it comes to AI, it is changing month to month, and we've got a great guest today to help us with creative. And of course, this AI Basic series is brought to you in partnership with my friends over at Google Cloud. Google Cloud really cares about founders. They're constantly giving credits and tools and this very series to help you as a founder figure it out, and just figure out how to scale your company and increase your chances of success",
+      "fallbackSummary": "1:00–1:30 The host introduces an AI Basics segment on creative AI and video marketing, emphasizing how quickly AI is changing and positioning Google Cloud as a practical resource for founders trying to scale.",
+      "tags": ["ai-video", "founders", "google-cloud", "podcast"],
+      "fairUseNote": "Short 30 second podcast excerpt used for commentary and criticism. The original long-form source is linked prominently and the File a Claim flow remains available."
+    },
+    {
+      "slug": "brain-computer-interface-word-by-word",
+      "file": "../../web/asset/clip2.mp4",
+      "type": "video",
+      "sourceUrl": "https://www.youtube.com/watch?v=_tIHicFHtXE",
+      "sourceTitle": "The $10M+ Bet on a Beanie That Reads Your Brain | Sabi & the Future of BCI | E2282",
+      "sourceAuthor": "This Week in Startups",
+      "mediaStart": "13:30",
+      "mediaEnd": "14:05",
+      "sourceDuration": 3297,
+      "clipDuration": 35,
+      "aiTitle": "A BCI founder explains the leap from brain signals to words",
+      "commentaryText": "This is the kind of moment that makes a long technical podcast instantly understandable: the claim becomes concrete when they ask whether thoughts can become words, word by word.",
+      "transcriptionText": "00:00:00,779 --> 00:00:05,659 [Speaker 0]\nThose signals, then the model will be able to translate- \n\n00:00:05,659 --> 00:00:05,679 [Speaker 1]\nExactly \n\n00:00:05,679 --> 00:00:08,400 [Speaker 0]\n... into something that's productive. \n\n00:00:08,400 --> 00:00:08,420 [Speaker 1]\nCorrect. \n\n00:00:08,420 --> 00:00:17,159 [Speaker 0]\nAnd what you claim, what you're claiming here, Raul, is that it's going to be able to say words in a sentence? \n\n00:00:17,159 --> 00:00:18,180 [Speaker 1]\nYep. \n\n00:00:18,180 --> 00:00:18,779 [Speaker 0]\nSo if I- \n\n00:00:18,779 --> 00:00:19,579 [Speaker 1]\nWord by word \n\n00:00:19,579 --> 00:00:20,719 [Speaker 0]\n... word by word. \n\n00:00:20,719 --> 00:00:20,739 [Speaker 1]\nYep. \n\n00:00:20,739 --> 00:00:24,699 [Speaker 0]\nNow, as the user, do I have to think the \n\n00:00:25,739 --> 00:00:34,819 [Speaker 0]\nquick brown fox, and I just slowly think each word and imagine a quick brown-",
+      "fallbackSummary": "13:30–14:05 The conversation narrows the BCI claim into a simple test: brain signals could be decoded into productive words, potentially sentence by sentence and word by word.",
+      "tags": ["bci", "neurotech", "ai", "podcast"],
+      "fairUseNote": "Short 35 second podcast excerpt used for commentary and criticism. The original long-form source is linked prominently and the File a Claim flow remains available."
+    },
+    {
+      "slug": "sam-altman-management-style",
+      "file": "../../web/asset/clip3.mp4",
+      "type": "video",
+      "sourceUrl": "https://www.youtube.com/watch?v=1ySBxK7viNs",
+      "sourceTitle": "Sam Altman in conversation with Patrick Collison",
+      "sourceAuthor": "Patrick Collison",
+      "mediaStart": "14:00",
+      "mediaEnd": "14:45",
+      "sourceDuration": 3500,
+      "clipDuration": 45,
+      "aiTitle": "Sam Altman describes a high-trust, low-touch management style",
+      "commentaryText": "This moment is valuable because it compresses a broader leadership philosophy into one clear operating principle: hire great people, point them at something important, and give them room.",
+      "transcriptionText": "00:00:01,100 --> 00:00:10,159 [Speaker 0]\nWhat's the Sam Altman management style? If I'm, if I'm working for you directly or maybe indirectly, I'm, you know, leading some product or, or something, you know, just \n\n00:00:11,319 --> 00:00:12,019 [Speaker 0]\nwhat does that look like? \n\n00:00:14,579 --> 00:00:14,759 [Speaker 1]\nUm, \n\n00:00:18,020 --> 00:00:21,739 [Speaker 1]\nI'm definitely not a hands-on manager. I am very much the... \n\n00:00:23,379 --> 00:00:37,840 [Speaker 1]\nof the, of the s-style that you get great people, um, kind of give them like a very high-level thing to point at, um, and try to let stuff just happen. Um, \n\n00:00:43,579 --> 00:00:44,419 [Speaker 1]\nI, I think there have been",
+      "fallbackSummary": "14:00–14:45 Patrick Collison asks Sam Altman to describe his management style. Altman says he is not hands-on and prefers giving strong people a high-level direction, then letting them operate.",
+      "tags": ["leadership", "openai", "sam-altman", "podcast"],
+      "fairUseNote": "Short 45 second podcast excerpt used for commentary and criticism. The original long-form source is linked prominently and the File a Claim flow remains available."
+    },
+    {
+      "slug": "rumination-and-moving-forward",
+      "file": "../../web/asset/clip4.mp4",
+      "type": "video",
+      "sourceUrl": "https://www.youtube.com/watch?v=fpC4sbawSzQ",
+      "sourceTitle": "OpenAI Misses Targets, Codex vs Claude, Elon vs Sam Trial, Big Hyperscaler Beats, Peptide Craze",
+      "sourceAuthor": "All-In Podcast",
+      "mediaStart": "34:50",
+      "mediaEnd": "35:30",
+      "sourceDuration": 4857,
+      "clipDuration": 40,
+      "aiTitle": "The hosts turn a throwaway line into a debate about rumination",
+      "commentaryText": "This is a good example of why clipping podcasts matters: a long episode can contain a sharp side conversation that stands alone as a debate about incentives, therapy, and moving forward.",
+      "transcriptionText": "00:00:00,159 --> 00:00:02,619 [Speaker 0]\nThis poll is front running \n\n00:00:02,619 --> 00:00:03,460 [Speaker 1]\nMm. \n\n00:00:03,460 --> 00:00:15,759 [Speaker 0]\nBut on a totally separate note, I think Jason, I know you say it as a joke, but this idea of just keep moving forward, don't ruminate, I think is very good general life advice for, for everybody to follow \n\n00:00:15,759 --> 00:00:23,280 [Speaker 1]\nThe modern day therapy industrial complex and the medication industrial complex, I believe is ruining people's lives \n\n00:00:23,280 --> 00:00:25,539 [Speaker 0]\nIt pivots around rumination. Well, it does pivot around rumination. \n\n00:00:25,539 --> 00:00:26,219 [Speaker 1]\nYes. \n\n00:00:26,219 --> 00:00:28,500 [Speaker 0]\nThat is the gateway drug to all these things. \n\n00:00:28,500 --> 00:00:39,599 [Speaker 1]\nYep. Talk about your problems. Hey, y- you know, when these people go to therapy, you ever hear these people, \"Howard Stern, it's like I've been in therapy with the same person two or three days a week for 40 years.\" I'm like, \"Okay, what's the incentive for the therapist to stop charging you $1,200?\"",
+      "fallbackSummary": "34:50–35:30 The hosts branch into a debate about rumination, moving forward, therapy incentives, and whether repeatedly revisiting problems can become counterproductive.",
+      "tags": ["all-in", "mental-health", "debate", "podcast"],
+      "fairUseNote": "Short 40 second podcast excerpt used for commentary and criticism. The original long-form source is linked prominently and the File a Claim flow remains available."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Annotated AI</title>
+    <link rel="stylesheet" href="sidepanel.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <img class="brand-logo" src="asset/logo.png" alt="Annotated AI" />
+        <div>
+          <div class="brand">Annotated AI</div>
+          <div class="subbrand">sidebar clipping agent</div>
+        </div>
+      </header>
+
+      <section class="account-card">
+        <div>
+          <div class="eyebrow">Account</div>
+          <div id="accountName" class="account-name">Not signed in</div>
+        </div>
+        <button id="extensionLoginBtn" class="button ghost">Google</button>
+      </section>
+
+      <section class="hero-card">
+        <div class="eyebrow">Current source</div>
+        <h1 id="sourceTitle">Open a page, then collect context.</h1>
+        <a id="sourceUrl" target="_blank" rel="noreferrer">No source loaded</a>
+      </section>
+
+      <div class="toolbar">
+        <button id="collectBtn" class="button secondary">Collect page</button>
+        <button id="screenshotBtn" class="button ghost">Vision</button>
+      </div>
+
+      <section class="panel">
+        <label>Clip type</label>
+        <div class="tabs">
+          <button data-type="text" class="tab active">Text</button>
+          <button data-type="video" class="tab">Video</button>
+          <button data-type="audio" class="tab">Audio</button>
+        </div>
+
+        <div id="timeFields" class="time-grid hidden">
+          <div>
+            <label>Start</label>
+            <input id="mediaStart" placeholder="1:24" />
+          </div>
+          <div>
+            <label>End</label>
+            <input id="mediaEnd" placeholder="2:10" />
+          </div>
+        </div>
+
+        <textarea id="selectedText" class="hidden" rows="7"></textarea>
+
+        <label>Your commentary</label>
+        <textarea id="commentaryText" rows="5" placeholder="What is your take?"></textarea>
+
+        <div class="voice-card">
+          <div>
+            <div class="voice-title">Voice commentary</div>
+            <div id="voiceStatus" class="file-name">Optional recorded take</div>
+          </div>
+          <div class="voice-actions">
+            <button id="recordBtn" class="button ghost" type="button">Record</button>
+            <button id="stopRecordBtn" class="button ghost hidden" type="button">Stop</button>
+          </div>
+          <audio id="voicePreview" class="hidden" controls></audio>
+        </div>
+
+        <div class="toolbar stackable">
+          <button id="assistBtn" class="button secondary">Ask Kimi k2.6</button>
+          <button id="publishBtn" class="button primary">Publish</button>
+        </div>
+      </section>
+
+      <section id="assistPanel" class="assist hidden">
+        <div class="eyebrow">AI package</div>
+        <h2 id="aiTitle"></h2>
+        <p id="aiSummary"></p>
+        <div id="suggestions" class="suggestions"></div>
+        <div id="tags" class="tags"></div>
+        <div id="fairUse" class="fair-use"></div>
+      </section>
+
+      <section class="status" id="status">Ready. Highlight text or open a YouTube video.</section>
+
+      <footer>
+        <a id="feedLink" target="_blank" rel="noreferrer">Open feed</a>
+        <a id="loginLink" target="_blank" rel="noreferrer">Web app</a>
+      </footer>
+    </main>
+    <script src="sidepanel.js"></script>
+  </body>
+</html>

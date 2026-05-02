@@ -1,0 +1,22 @@
+{
+  "name": "annotated-ai-server",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "seed:demo-clips": "node scripts/seed-demo-podcast-clips.js",
+    "seed:demo-clips:dry": "node scripts/seed-demo-podcast-clips.js --dry-run"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "ffmpeg": "^0.0.4",
+    "firebase-admin": "^13.0.2",
+    "multer": "^2.0.2",
+    "openai": "^5.0.0"
+  }
+}

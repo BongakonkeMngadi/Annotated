@@ -1,0 +1,14 @@
+{
+  "name": "annotated-ai",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev:web": "npm --prefix web run dev",
+    "dev:server": "npm --prefix server run dev",
+    "build:web": "npm --prefix web run build",
+    "build:extension": "npm --prefix extension run build",
+    "build": "npm run build:web && npm run build:extension",
+    "start:server": "npm --prefix server start"
+  }
+}
